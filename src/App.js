@@ -14,6 +14,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function App() {
+  //       <Video />
+  //       <Pricing />
+
   return (
     <motion.div initial="hidden" animate="show">
       <ScrollToTop />
@@ -22,8 +25,6 @@ export default function App() {
       <Portfolio />
       <Milestones />
       <Blog />
-      <Video />
-      <Pricing />
       <Testimonials />
       <Skills />
       <Contact />

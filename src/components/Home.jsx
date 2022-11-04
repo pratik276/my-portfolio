@@ -17,7 +17,7 @@ export default function Home() {
       >
         <div className="content">
           <div className="title">
-            <h1>Digital Crafters</h1>
+            <h1> Pratik Om Shrestha</h1>
           </div>
           <div className="subTitle">
             <p>
@@ -37,25 +37,25 @@ export default function Home() {
         <div className="grid">
           <div className="col">
             <strong>Agency</strong>
-            <p>Digital Crafters</p>
+            <p>Amnil Tech</p>
           </div>
           <div className="col">
             <strong>Email</strong>
-            <p>kishansheth21@gmail.com</p>
+            <p>pratik@gmail.com</p>
           </div>
           <div className="col">
             <strong>Mobile</strong>
-            <p>+91 1231231131</p>
+            <p>+977 9801049671</p>
           </div>
           <div className="col">
             <strong>Address</strong>
-            <p>Some Street India,</p>
-            <p>960105 India</p>
+            <p>Kathmandu</p>
+            <p>33700 Nepal</p>
           </div>
           <div className="col">
             <strong>Services</strong>
             <p>Corporate Identity</p>
-            <p>Full Coding</p>
+            <p>Project Manager</p>
           </div>
           <div className="col">
             <strong>Working Hours</strong>

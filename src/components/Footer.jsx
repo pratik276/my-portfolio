@@ -6,6 +6,8 @@ import { footerLogoAnimations, footerTextAnimations } from "animations";
 import { motion } from "framer-motion";
 function Footer() {
   const [element, controls] = useScroll();
+
+  const currentYear = new Date().getFullYear();
   return (
     <Foot ref={element}>
       <motion.span
@@ -17,7 +19,7 @@ function Footer() {
           duration: 0.8,
         }}
       >
-        &copy; Template created with love by Kishan Sheth
+        &copy; {currentYear} - All Rights Reserved
       </motion.span>
       <motion.div
         className="footer__social__icons"
