@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import styled from "styled-components";
-import home from "assets/home.png";
+import home1 from "assets/home1.png";
 import play from "assets/play.png";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "animations";
@@ -69,14 +69,14 @@ export default function Home() {
 }
 
 const Section = styled.section`
-  background-image: url(${home});
+  background-image: url(${home1});
   background-size: cover;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   .home {
-    height: 100%;
+    height: 10%;
     .content {
       height: 100%;
       color: white;
